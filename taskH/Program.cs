@@ -8,7 +8,7 @@ namespace taskH
         {
             int number;
             // Если входные данные неверные, то выводим "wrong" и завершаем программу.
-            if (!int.TryParse(Console.ReadLine(), out number) || (number < 2) || (number > 511))
+            if (!int.TryParse(Console.ReadLine(), out number) || (number < 2) || (number >= 2000000000))
             {
                 Console.WriteLine("wrong");
                 return;
