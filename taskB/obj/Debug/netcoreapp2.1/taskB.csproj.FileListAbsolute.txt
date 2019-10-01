@@ -1,0 +1,11 @@
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/bin/Debug/netcoreapp2.1/taskB.deps.json
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/bin/Debug/netcoreapp2.1/taskB.runtimeconfig.json
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/bin/Debug/netcoreapp2.1/taskB.runtimeconfig.dev.json
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/bin/Debug/netcoreapp2.1/taskB.dll
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/bin/Debug/netcoreapp2.1/taskB.pdb
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.csprojAssemblyReference.cache
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.csproj.CoreCompileInputs.cache
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.AssemblyInfoInputs.cache
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.AssemblyInfo.cs
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.dll
+/Users/morlakdzuu/RiderProjects/SamWork2/taskB/obj/Debug/netcoreapp2.1/taskB.pdb
