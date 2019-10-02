@@ -90,6 +90,18 @@
         <e p="Program.cs" t="Include" />
         <e p="taskF.csproj" t="IncludeRecursive" />
       </e>
+      <e p="taskG" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="taskG.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="taskG.csproj" t="IncludeRecursive" />
+      </e>
       <e p="taskH" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
