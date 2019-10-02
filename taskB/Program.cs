@@ -16,9 +16,9 @@ namespace taskB
                 return;
             }
             // Проверяем, записано ли число в введённой системе счисления.
-            for (int i = 0; i < number.ToString().Length; i++)
+            for (int i = 0; i < GetNumberLength(number); i++)
             {
-                if (int.Parse(number.ToString()[i].ToString()) > (baseNumberSystem - 1))
+                if ((int) (number % Math.Pow(10, i+1) / Math.Pow(10, i)) > (baseNumberSystem - 1))
                 {
                     Console.WriteLine("wrong");
                     return;
@@ -36,12 +36,28 @@ namespace taskB
         private static int GetDecimalNumber(int number, int baseNumberSystem)
         {
             int result = 0;
-            string numberStr = number.ToString();
-            for (int i = 0; i < numberStr.Length; i++)
+            for (int i = 0; i < GetNumberLength(number); i++)
             {
-                result += int.Parse(numberStr[numberStr.Length - i - 1].ToString()) * (int) Math.Pow(baseNumberSystem, i);
+                result += (int) (number % Math.Pow(10, i+1) / Math.Pow(10, i)) * (int) Math.Pow(baseNumberSystem, i);
             }
             return result;
+        }
+
+        /// <summary>
+        /// Метод считает количество разрядов в целом числе.
+        /// </summary>
+        /// <param name="number">целое число</param>
+        /// <returns>количество разрядов</returns>
+        private static int GetNumberLength(int number)
+        {
+            int i = 1;
+            int counter = 0;
+            while (number / i != 0)
+            {
+                i *= 10;
+                counter++;
+            }
+            return counter;
         }
     }
 }
